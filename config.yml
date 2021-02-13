@@ -11,6 +11,7 @@ proxies:
     port: 1443
     cipher: chacha20-ietf-poly1305
     password: TwGecQwU17wT
+    udp: true
     plugin: obfs
     plugin-opts:
       mode: tls
@@ -22,6 +23,7 @@ proxies:
     port: 1449
     cipher: chacha20-ietf-poly1305
     password: qwertyy
+    udp: true
     plugin: obfs
     plugin-opts:
       mode: tls
