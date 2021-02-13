@@ -59,7 +59,7 @@ proxies:
     port: 19147
     uuid: bcfc6d53-32d8-437c-c86e-7f6855a6ad75
     alterId: 64
-    cipher: none
+    cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
