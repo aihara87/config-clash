@@ -55,16 +55,16 @@ proxies:
     
   - name: vmess1
     type: vmess
-    server: sg-v2ray.racevpn.com
-    port: 19147
-    uuid: bcfc6d53-32d8-437c-c86e-7f6855a6ad75
-    alterId: 64
+    server: sg5.vmes.xyz
+    port: 443
+    uuid: 183df256-bf5e-4796-9b0a-ac68e5c9a437
+    alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
-    ws-path: 
+    network: ws
+    ws-path: /JAGOANSSH/
     ws-headers:
       Host: m.instagram.com
 
