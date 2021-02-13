@@ -61,12 +61,13 @@ proxies:
     alterId: 64
     cipher: none
     tls: true
+    sni: m.instagram.com
     udp: true
     skip-cert-verify: true
     network: tcp
-    ws-path: "#"
+    ws-path: 
     ws-headers:
-      Host: m.instagram.com
+      Host: 
 
 proxy-groups:
   - name: 🚀 节点选择
