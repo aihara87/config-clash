@@ -55,7 +55,7 @@ proxies:
  
   - name: trojan2
     type: trojan
-    server: 13.250.116.18
+    server: '13.250.116.18'
     port: 2443
     password: test
     udp: true
