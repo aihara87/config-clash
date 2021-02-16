@@ -52,6 +52,18 @@ proxies:
       - h2
       - http/1.1
     skip-cert-verify: true
+
+  - name: trojan2
+    type: trojan
+    server: "13.250.116.18"
+    port: 2443
+    password: test
+    udp: true
+    sni: m.instagram.com
+    alpn:
+      - h2
+      - http/1.1
+    skip-cert-verify: true
     
   - name: vmess1
     type: vmess
